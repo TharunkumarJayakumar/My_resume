@@ -1,0 +1,509 @@
+---
+layout: null
+title: Tharun Kumar J — Computational Biology & Bioinformatics
+description: Computational biology, bioinformatics pipeline development, long-read genomics, transcriptomics and machine learning.
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta name="author" content="Tharun Kumar J">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/logo.jpeg">
+  <link rel="icon" href="{{ site.baseurl }}/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark">TJ</span>
+        <span>Tharun Kumar J<small>computational biology</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#publication">Publication</a>
+        <a href="#talks">Talks</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="seq-strip" aria-hidden="true">
+    <div class="seq-track">
+      <span>5′—ATGC GCTA TGAC CAGT ATCG GTTA CCAG ATGC GCTA—3′ &nbsp;·&nbsp; READ · ALIGN · CALL · ANNOTATE · INTERPRET &nbsp;·&nbsp;</span>
+      <span>5′—ATGC GCTA TGAC CAGT ATCG GTTA CCAG ATGC GCTA—3′ &nbsp;·&nbsp; READ · ALIGN · CALL · ANNOTATE · INTERPRET &nbsp;·&nbsp;</span>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div data-reveal>
+          <div class="eyebrow">Bioinformatics · Genomics · Machine Learning</div>
+          <h1>Tharun <span class="gradient">Kumar J</span></h1>
+          <div class="typed-wrap">&gt; <span class="typed">computational biology</span></div>
+          <p class="lead">I turn raw sequencing data into reproducible pipelines and clear answers — from nanopore reads and variant calling to transcriptomics and explainable machine learning.</p>
+
+          <div class="facts">
+            <span class="fact">
+              <svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Hosur, Tamil Nadu, India
+            </span>
+            <span class="fact">
+              <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <a href="mailto:tharunjayy@gmail.com" style="color:inherit;text-decoration:none">tharunjayy@gmail.com</a>
+            </span>
+            <span class="fact">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.9a3.4 3.4 0 0 0-.9-2.6c3-.3 6.1-1.5 6.1-6.6A5.2 5.2 0 0 0 18.8 4 4.8 4.8 0 0 0 18.7.5S17.6.1 15 2a12.4 12.4 0 0 0-7 0C5.4.1 4.3.5 4.3.5A4.8 4.8 0 0 0 4.2 4 5.2 5.2 0 0 0 2.8 7.9c0 5 3.1 6.3 6.1 6.6A3.4 3.4 0 0 0 8 17.1V21"/></svg>
+              <a href="https://github.com/TharunkumarJayakumar" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">TharunkumarJayakumar</a>
+            </span>
+          </div>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="#projects">
+              Explore my work
+              <svg viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="mailto:tharunjayy@gmail.com">
+              <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              Get in touch
+            </a>
+          </div>
+        </div>
+
+        <div class="portrait" data-reveal>
+          <div class="portrait-inner">
+            <img src="{{ site.baseurl }}/logo.jpeg" alt="Portrait of Tharun Kumar J" width="413" height="531">
+          </div>
+          <div class="portrait-tag">&gt; building_bioinformatics.sh</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats" data-reveal>
+          <div class="stat"><b>M.Tech</b><span>Biotechnology · 2026</span></div>
+          <div class="stat"><b>~1 yr</b><span>Industry R&amp;D</span></div>
+          <div class="stat"><b>6+</b><span>Genomics domains</span></div>
+          <div class="stat"><b>1</b><span>Publication · in press</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="block" id="about">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">01</span>
+          <h2>Profile</h2>
+          <span class="line"></span>
+        </div>
+        <div data-reveal style="max-width:900px">
+          <p style="color:#c9d5e8;margin-top:0">M.Tech Biotechnology graduate (2026) with ~1 year of R&amp;D experience in primer and assay design, bioinformatics, genomic and transcriptomic data analysis, pharmacogenomics, multi-omics integration and reproducible pipeline development. Experienced in benchmarking tools and in building, validating and deploying NGS pipelines for repeat disorders, TB AMR detection, viral genomics, mitochondrial genomics, transcriptomics and pharmacogenomics. Strong proficiency in Bash, R and Python, with hands-on machine learning on biological data.</p>
+          <p style="color:var(--muted);margin-bottom:0"><strong style="color:var(--accent)">Target role:</strong> Scientist / Computational Biology — pipeline development, genomic data analysis and applied machine learning.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="block" id="skills">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">02</span>
+          <h2>Technical Skills</h2>
+          <span class="line"></span>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card" data-reveal>
+            <h3><span class="ic">01</span> Programming &amp; data analysis</h3>
+            <div class="chips">
+              <span class="chip hot">R</span><span class="chip">DESeq2</span><span class="chip">edgeR</span>
+              <span class="chip">limma</span><span class="chip">ggplot2</span><span class="chip">Seurat</span>
+              <span class="chip">phyloseq</span><span class="chip">vegan</span><span class="chip">clusterProfiler</span>
+              <span class="chip hot">Python</span><span class="chip">NumPy</span><span class="chip">pandas</span>
+              <span class="chip">SciPy</span><span class="chip">scikit-learn</span><span class="chip">Biopython</span>
+              <span class="chip">SHAP</span><span class="chip">CTGAN / SDV</span><span class="chip hot">Bash / Linux</span>
+              <span class="chip">Conda</span><span class="chip">HPC</span><span class="chip">Git / GitHub</span>
+            </div>
+          </article>
+
+          <article class="skill-card" data-reveal>
+            <h3><span class="ic">02</span> Pipelines &amp; bioinformatics engineering</h3>
+            <div class="chips">
+              <span class="chip hot">Nextflow DSL2</span><span class="chip">Docker / Singularity</span>
+              <span class="chip">JSON config</span><span class="chip violet">Minimap2</span><span class="chip violet">Medaka</span>
+              <span class="chip violet">Porechop</span><span class="chip violet">Dorado</span><span class="chip violet">Guppy</span>
+              <span class="chip violet">Clair3</span><span class="chip violet">Straglr</span><span class="chip violet">Nextclade</span>
+              <span class="chip">BCFtools</span><span class="chip">GATK</span><span class="chip">FreeBayes</span>
+              <span class="chip">Snippy</span><span class="chip">SnpEff</span><span class="chip">VEP</span>
+              <span class="chip">SAMtools</span><span class="chip">BEDtools</span><span class="chip">Mosdepth</span>
+            </div>
+          </article>
+
+          <article class="skill-card" data-reveal>
+            <h3><span class="ic">03</span> Assembly, metagenomics &amp; AMR</h3>
+            <div class="chips">
+              <span class="chip">Flye</span><span class="chip">SPAdes</span><span class="chip">MetaBAT2</span>
+              <span class="chip">MaxBin2</span><span class="chip">DAS Tool</span><span class="chip">CheckM</span>
+              <span class="chip">GTDB</span><span class="chip hot">AMRFinderPlus</span><span class="chip hot">ABRicate</span>
+              <span class="chip">RGI / CARD</span><span class="chip">GeNomad</span><span class="chip">Krona</span>
+              <span class="chip">Anvi′o</span><span class="chip">Kraken2</span><span class="chip">Bakta</span>
+            </div>
+          </article>
+
+          <article class="skill-card" data-reveal>
+            <h3><span class="ic">04</span> Transcriptomics &amp; multi-omics</h3>
+            <div class="chips">
+              <span class="chip hot">RNA-seq</span><span class="chip">STAR</span><span class="chip">HISAT2</span>
+              <span class="chip">featureCounts</span><span class="chip">HTSeq</span><span class="chip">Salmon</span>
+              <span class="chip">StringTie</span><span class="chip">GO / KEGG</span><span class="chip">g:Profiler</span>
+              <span class="chip">ChIP-seq · MACS2</span><span class="chip">ATAC-seq</span><span class="chip">deepTools</span>
+              <span class="chip">bisulfite-seq</span><span class="chip">Cytoscape</span><span class="chip">STRING · MCODE</span>
+              <span class="chip">Roary</span><span class="chip">RAxML</span><span class="chip">QIIME</span>
+            </div>
+          </article>
+
+          <article class="skill-card" data-reveal>
+            <h3><span class="ic">05</span> Primer &amp; assay design</h3>
+            <div class="chips">
+              <span class="chip hot">Primer3</span><span class="chip hot">PrimerJinn</span><span class="chip hot">PrimerPooler</span>
+              <span class="chip">Multiplex panels</span><span class="chip">Allele-specific assays</span>
+              <span class="chip">ΔG cross-dimer filtering</span><span class="chip">Adaptive sampling</span>
+              <span class="chip">i5 / i7 indexing</span><span class="chip">MAFFT</span>
+            </div>
+          </article>
+
+          <article class="skill-card" data-reveal>
+            <h3><span class="ic">06</span> Structural bioinformatics &amp; ML</h3>
+            <div class="chips">
+              <span class="chip">SWISS-MODEL</span><span class="chip">AlphaFold</span><span class="chip">CB-Dock 2</span>
+              <span class="chip">1-Click Docking</span><span class="chip">Molecular dynamics</span>
+              <span class="chip">Augustus</span><span class="chip violet">SVR / GBM / RF</span>
+              <span class="chip violet">LOOCV</span><span class="chip violet">Explainable AI</span>
+              <span class="chip">NCBI · UniProt · PDB</span><span class="chip">KEGG · GEO · SRA</span>
+              <span class="chip">Pfam · InterPro</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="block" id="experience">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">03</span>
+          <h2>Experience</h2>
+          <span class="line"></span>
+        </div>
+
+        <div class="timeline">
+          <article class="job" data-reveal>
+            <div class="job-top">
+              <div>
+                <h3>Junior Scientific Analyst — R&amp;D Bioinformatics</h3>
+                <div class="org">Genotypic Technology Pvt Ltd, Bengaluru</div>
+              </div>
+              <span class="date">Jun 2026 – Present</span>
+            </div>
+            <ul>
+              <li><strong>Primer &amp; assay design:</strong> designing multiplex primer panels for ONT amplicon sequencing and adaptive sampling with Primer3, PrimerJinn and PrimerPooler; applied Tm/GC, hairpin, self-dimer, allele-specific and ΔG cross-extension constraints with custom i5/i7 barcode indexing. Delivered a multi-chromosome SNP panel and a mitochondrial amplicon panel.</li>
+              <li><strong>R&amp;D approach:</strong> literature and tool review, shortlisting and benchmarking on real and simulated data, then building, validating and deploying containerized Nextflow workflows with sensitivity, specificity and concordance checks.</li>
+              <li><strong>STR expansion genotyping:</strong> built a Nextflow DSL2 pipeline for SCA, FMR1 and HTT repeat expansions from ONT reads — trimming, alignment, Clair3 calling on a custom repetitive-region model, haplotagging, per-haplotype sizing and automated R Markdown reports; benchmarked against Straglr, STRime/STRDime, Nanorepeat, Stripy, Stranger and EPI2ME.</li>
+              <li><strong>ONT trimming &amp; QC benchmark:</strong> compared Porechop, Dorado SUP and Cutadapt on amplicon and mitochondrial data; quantified Q-scores, N50, read lengths, per-target depth (Mosdepth) and allele concordance in IGV.</li>
+              <li><strong>TB genomics &amp; WHO 2023 AMR catalogue:</strong> parsed and corrected mis-graded ASSOC-w-R / R-interim categories, reconciled variants into multi-sample Excel reports, evaluated a custom TB-Profiler database (73 genes) and ran Kraken2/Krona plus IS6110/IS1081 contamination checks.</li>
+              <li><strong>UMI low-VAF calling:</strong> Nextflow UMI consensus pipeline with adapter/UMI identification, edit-distance clustering, duplicate/error suppression and FreeBayes calling; validated down to ~5% VAF on staged in-silico bundles.</li>
+              <li><strong>Pharmacogenomics (CYP2D6):</strong> star-allele haplotyping and metabolizer assignment; cross-validated PyPGx, Stargazer, Aldy, Cyrius, SpecImmune and CoLoRGen on GRCh37 with synthetic PharmVar panels and concordance reports.</li>
+              <li><strong>Mitochondrial workflow:</strong> ONT amplicon workflow (Porechop → minimap2 → SAMtools → Clair3 → SnpEff → haplogrep3 → mutserve) for homoplasmy/heteroplasmy and haplogroup assignment.</li>
+              <li><strong>Viral genomics:</strong> RSV-A/B and HIV drug-resistance/lineage workflows; MSA, identity matrices and BLAST comparisons across JEV, WNV, YFV, Zika and SARS-CoV-2.</li>
+              <li><strong>Platform integration &amp; validation:</strong> containerized pipelines on an in-house AI-assisted orchestration platform with structured defect reports; badread-simulated TB reads used to compute TP/TN/FP, sensitivity, specificity and precision; live VM demos for internal teams.</li>
+            </ul>
+          </article>
+
+          <article class="job" data-reveal>
+            <div class="job-top">
+              <div>
+                <h3>Project Intern — R&amp;D Bioinformatics</h3>
+                <div class="org">Genotypic Technology Pvt Ltd, Bengaluru</div>
+              </div>
+              <span class="date">Dec 2025 – May 2026</span>
+            </div>
+            <div class="sub">Reporting manager: Dr. Prakruthi, Senior Scientist – R&amp;D</div>
+            <ul>
+              <li>Built and validated modular Nextflow DSL2 pipelines for AMR detection, variant annotation, viral genomics (RSV) and bulk RNA-seq.</li>
+              <li>Integrated Nextclade for RSV clade/subtype classification on Oxford Nanopore data and validated an ABO blood-typing pipeline with branded Excel reports.</li>
+              <li>Developed a <em>Salmonella Typhi</em> AMR pipeline (ABRicate, Kraken2, Krona, GeNomad, AMRFinderPlus) and automated SCA STR analysis with wf-human-variation and Singularity.</li>
+              <li>Automated bulk RNA-seq (STAR, featureCounts, DESeq2) for paired-end Illumina data; performed metagenomic assembly and binning (Flye → MetaBAT2/MaxBin2 → DAS Tool) with CheckM/GTDB validation and Anvi′o pangenome analysis.</li>
+              <li>Alpha-tested an in-house AI-assisted genomics platform, documenting workflow failures, annotation inconsistencies and module-level errors.</li>
+            </ul>
+          </article>
+
+          <article class="job" data-reveal>
+            <div class="job-top">
+              <div>
+                <h3>Project Intern</h3>
+                <div class="org">DRDO Industry Academia Centre of Excellence, BU Campus, Coimbatore</div>
+              </div>
+              <span class="date">Jan 2024 – Aug 2024</span>
+            </div>
+            <ul>
+              <li>“Toxicity Effect of Ferrocene on Early Life Stages of Zebrafish (<em>Danio rerio</em>): A Multi-Biomarker Approach.”</li>
+              <li>Assessed acute toxicity with biochemical, enzymatic, neurotoxicological and histopathological assays; demonstrated dose-dependent effects with aquatic-ecosystem relevance.</li>
+            </ul>
+          </article>
+
+          <article class="job" data-reveal>
+            <div class="job-top">
+              <div><h3>Intern Trainee</h3><div class="org">DRDO-BU Center for Life Sciences, Coimbatore</div></div>
+              <span class="date">Aug 2023</span>
+            </div>
+            <ul><li>15-day training on nanomaterial synthesis; operated SEM, fluorescence microscopy, BET, DLS and zeta-potential instruments.</li></ul>
+          </article>
+
+          <article class="job" data-reveal>
+            <div class="job-top">
+              <div><h3>Intern Trainee</h3><div class="org">MAIVA Pharma Pvt Ltd, Hosur</div></div>
+              <span class="date">Oct 2022</span>
+            </div>
+            <ul><li>Two-week GMP rotation across QC, production, QA and supply chain; observed HPLC, GC–MS, LC–MS, ICP–MS and WFI systems.</li></ul>
+          </article>
+
+          <article class="job" data-reveal>
+            <div class="job-top">
+              <div><h3>Intern Trainee</h3><div class="org">VINSMILE Pharma Manufacturer &amp; Distribution, Kallakurichi</div></div>
+              <span class="date">Mar 2022</span>
+            </div>
+            <ul><li>Two-week exposure to formulation, packaging and GMP documentation for tablets, creams, ointments, capsules and shampoos.</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="block" id="education">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">04</span>
+          <h2>Education</h2>
+          <span class="line"></span>
+        </div>
+        <div class="skill-grid" data-reveal>
+          <article class="skill-card"><h3><span class="ic">M.Tech</span> Biotechnology</h3><p style="margin:0;color:var(--muted);font-size:.9rem">PSG College of Technology, Coimbatore · 2024–2026</p></article>
+          <article class="skill-card"><h3><span class="ic">B.Tech</span> Pharmaceutical Technology</h3><p style="margin:0;color:var(--muted);font-size:.9rem">Hindusthan Institute of Technology, Coimbatore · 2020–2024 · <strong style="color:var(--accent)">88.5%</strong></p></article>
+          <article class="skill-card"><h3><span class="ic">HSC</span> PCMB</h3><p style="margin:0;color:var(--muted);font-size:.9rem">Tamil Nadu Board of Secondary Education · 2020 · 69%</p></article>
+          <article class="skill-card"><h3><span class="ic">SSLC</span> Schooling</h3><p style="margin:0;color:var(--muted);font-size:.9rem">Tamil Nadu Matriculation Board · 2018 · 82%</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="block" id="projects">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">05</span>
+          <h2>Selected Projects</h2>
+          <span class="line"></span>
+        </div>
+        <div class="project-grid">
+          <article class="project" data-reveal>
+            <span class="p-meta">M.Tech major project · ongoing</span>
+            <h3>Modular AMR analysis pipeline from NGS data</h3>
+            <p>Nextflow DSL2 workflow integrating Fastp/Porechop QC, SPAdes/Flye assembly, Minimap2, RGI-CARD, GeNomad, Kraken2/Krona and Bakta for Illumina and ONT data; validated on clinical isolates.</p>
+            <div class="tags"><span class="chip hot">Nextflow</span><span class="chip">AMR</span><span class="chip">Assembly</span></div>
+          </article>
+
+          <article class="project" data-reveal>
+            <span class="p-meta">Submitted for publication</span>
+            <h3>Explainable ML with generative augmentation for hydrogen production</h3>
+            <p>83-observation MEC dataset expanded to 583 with CTGAN; SVR/GBM/RF/Ridge/Linear benchmarks by LOOCV (best SVR R² = 0.659); SHAP identified current density as the dominant predictor.</p>
+            <div class="tags"><span class="chip violet">Machine learning</span><span class="chip">CTGAN</span><span class="chip">SHAP</span></div>
+          </article>
+
+          <article class="project" data-reveal>
+            <span class="p-meta">Conference presentation</span>
+            <h3>Predictive modelling of gene signatures in Type II Diabetes Mellitus</h3>
+            <p>Integrated RNA-seq and microarray data to identify 31 hub genes; GO enrichment, ML risk-prediction models and an interactive Shiny app. Presented at PSG Tech International Conference (ISBN 978-93-95105-97-2).</p>
+            <div class="tags"><span class="chip">Multi-omics</span><span class="chip">Shiny</span><span class="chip"> Biomarkers</span></div>
+          </article>
+
+          <article class="project" data-reveal>
+            <span class="p-meta">Structural bioinformatics</span>
+            <h3>In-silico vaccine design against HIV-2</h3>
+            <p>Multi-epitope vaccine candidate from conserved HIV-2 regions using IEDB/UniProt; screened for antigenicity and allergenicity and built adjuvant-linked models.</p>
+            <div class="tags"><span class="chip">Immunoinformatics</span><span class="chip">IEDB</span></div>
+          </article>
+
+          <article class="project" data-reveal>
+            <span class="p-meta">Molecular modelling</span>
+            <h3>Docking &amp; MD simulation of <em>Macrotyloma uniflorum</em> phytochemicals</h3>
+            <p>Docked 30 phytochemicals against P-glycoprotein and MRP3 using 1-Click Docking, CB-Dock 2 and MD simulations; highlighted rutaecarpine as a promising P-gp inhibitor.</p>
+            <div class="tags"><span class="chip">Docking</span><span class="chip">MD simulation</span></div>
+          </article>
+
+          <article class="project" data-reveal>
+            <span class="p-meta">Public repository</span>
+            <h3>vcf-annotate-smk</h3>
+            <p>Reproducible GRCh38 VCF filtering and annotation workflow using Ensembl VEP and bcftools, with continuous integration.</p>
+            <div class="tags"><a class="inline" href="https://github.com/TharunkumarJayakumar/vcf-annotate-smk" target="_blank" rel="noopener">View on GitHub →</a><span class="chip">VCF</span><span class="chip">VEP</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATION ============ -->
+    <section class="block" id="publication">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">06</span>
+          <h2>Publication</h2>
+          <span class="line"></span>
+        </div>
+        <article class="pub" data-reveal>
+          <div class="authors">Subramaniapillai Niju · Jayakumar Tharunkumar · Perumal Asaithambi</div>
+          <h3>Determinants of Hydrogen Production in Microbial Electrolysis Cells: Microbial, Electrochemical and Operational Perspectives.</h3>
+          <div class="journal"><em>Sustainable Chemistry One World</em>, Elsevier · Vol. 100234, 2026</div>
+          <div class="pub-foot">
+            <span class="pill">IN PRESS</span>
+            <a class="doi" href="https://doi.org/10.1016/j.scowo.2026.100234" target="_blank" rel="noopener">https://doi.org/10.1016/j.scowo.2026.100234 ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ TALKS ============ -->
+    <section class="block" id="talks">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">07</span>
+          <h2>Conferences &amp; Workshops</h2>
+          <span class="line"></span>
+        </div>
+        <div class="talks">
+          <div class="talk" data-reveal><span class="yr">2025</span><p>International Conference on “Advances in Molecular Medicine and Multi Omics Technology,” PSG Tech, Coimbatore — presented “Predictive Modelling of Gene Signatures in Type II Diabetes Mellitus and their Functional Validation” (ISBN 978-93-95105-97-2).<span class="venue">Two-day workshop on Homology Modeling, Active Site Prediction and Docking, Discovery Boulevard.</span></p></div>
+          <div class="talk" data-reveal><span class="yr">2024</span><p>Internal Smart India Hackathon — “Biodegradable Polymers: A Smart Strategy for Replacing Blister Packages.”<span class="venue">Workshop on Futuristic R&amp;D Endeavours on Soldier Support Technologies, DIA CoE, BU.</span></p></div>
+          <div class="talk" data-reveal><span class="yr">2023</span><p>National Level Technical Symposium, Dhanalakshmi Srinivasan Engineering College — presented “Evaluation of anti-hyperglycemic activities of <em>Borassus flabellifer</em> leaf extract” and “In-silico vaccine designing against HIV-2.”<span class="venue">YUKTI Innovation Challenge; Certification in Molecular Docking, BIOGrademy; Medical Equipment Troubleshooting workshop, Karpagam University.</span></p></div>
+          <div class="talk" data-reveal><span class="yr">2022</span><p>Internal Smart India Hackathon — “Bio-diesel Production from Waste Cooking Oil using Catalyst from a Novel Source” and “Refined Solution to help Cities locate EV Charging Infrastructure.”<span class="venue">MINITAB process-optimization workshop, BIT; NPTEL Entrepreneurship Essentials.</span></p></div>
+          <div class="talk" data-reveal><span class="yr">2021</span><p>National workshop on “Analytic Techniques used in Nanotechnology,” ISBM Uni.<span class="venue">Workshop on “Fighting Covid-19 using 3D Printing Technology,” HIT.</span></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="block" id="achievements">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="sec-no">08</span>
+          <h2>Achievements</h2>
+          <span class="line"></span>
+        </div>
+        <div class="ach" data-reveal>
+          <div><span>★</span>Winner — Best Project Expo 2024 (eco-friendly pharmaceutical packaging material).</div>
+          <div><span>★</span>Winner — Technical Quiz (Azooka) and Photography/Poster Presentation (“Nurturing the Nature”).</div>
+          <div><span>★</span>Runner-up — Intra-college Poetry Competition.</div>
+          <div><span>◎</span>Activities: running, cycling, volleyball, photography and reading.</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div data-reveal>
+          <h2>Let's connect <span class="gradient">↗</span></h2>
+          <p>Open to research and industry roles in computational biology, bioinformatics and applied machine learning.</p>
+        </div>
+        <div class="social" data-reveal>
+          <a href="mailto:tharunjayy@gmail.com"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Email</a>
+          <a href="https://www.linkedin.com/in/tharunjay" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M6 9v11M6 5.5v.01M11 20v-6a3 3 0 0 1 6 0v6M11 9v11"/></svg> LinkedIn</a>
+          <a href="https://github.com/TharunkumarJayakumar" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.9a3.4 3.4 0 0 0-.9-2.6c3-.3 6.1-1.5 6.1-6.6A5.2 5.2 0 0 0 18.8 4 4.8 4.8 0 0 0 18.7.5S17.6.1 15 2a12.4 12.4 0 0 0-7 0C5.4.1 4.3.5 4.3.5A4.8 4.8 0 0 0 4.2 4 5.2 5.2 0 0 0 2.8 7.9c0 5 3.1 6.3 6.1 6.6A3.4 3.4 0 0 0 8 17.1V21"/></svg> GitHub</a>
+          <a href="tel:+919486347125"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2Z"/></svg> Call</a>
+        </div>
+      </div>
+      <div class="copy">
+        <span>© <span id="year">2026</span> Tharun Kumar J · Hosur, Tamil Nadu, India</span>
+        <span>References available on request · Built with <code>&lt;curiosity /&gt;</code></span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" title="Back to top" aria-label="Back to top">↑</button>
+
+  <script>
+    (function () {
+      // typing effect
+      var phrases = ['computational biology', 'bioinformatics pipelines', 'long-read genomics', 'machine learning'];
+      var el = document.querySelector('.typed');
+      if (el) {
+        var i = 0, j = 0, deleting = false;
+        (function tick() {
+          var word = phrases[i];
+          j += deleting ? -1 : 1;
+          el.textContent = word.slice(0, j);
+          var delay = deleting ? 45 : 90;
+          if (!deleting && j === word.length) { deleting = true; delay = 1500; }
+          else if (deleting && j === 0) { deleting = false; i = (i + 1) % phrases.length; delay = 350; }
+          setTimeout(tick, delay);
+        })();
+      }
+
+      // reveal on scroll
+      var revealables = document.querySelectorAll('[data-reveal]');
+      if ('IntersectionObserver' in window) {
+        var ro = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) { e.target.classList.add('visible'); ro.unobserve(e.target); }
+          });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        revealables.forEach(function (n) { ro.observe(n); });
+      } else {
+        revealables.forEach(function (n) { n.classList.add('visible'); });
+      }
+
+      // nav highlight
+      var links = Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
+      var sections = links.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+      if ('IntersectionObserver' in window) {
+        var no = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              links.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id); });
+            }
+          });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        sections.forEach(function (s) { no.observe(s); });
+      }
+
+      // back to top
+      var top = document.getElementById('toTop');
+      window.addEventListener('scroll', function () {
+        top.classList.toggle('show', window.scrollY > 500);
+      }, { passive: true });
+      top.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+      // year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>

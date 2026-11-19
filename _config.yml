@@ -1,11 +1,7 @@
 title: Tharun Kumar J
 author: Tharun Kumar J
 description: Computational biology, bioinformatics pipeline development, long-read genomics, transcriptomics and machine learning.
-logo: logo.jpeg
-show_downloads: true
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-seo-tag
 url: https://tharunkumarjayakumar.github.io
 baseurl: /My_resume
 email: tharunjayy@gmail.com
+# Custom theme in assets/css — no external Jekyll theme
