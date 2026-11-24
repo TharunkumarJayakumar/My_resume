@@ -166,9 +166,9 @@ Subramaniapillai Niju, Jayakumar Tharunkumar, Perumal Asaithambi. “Determinant
 
 ## 🏆 Achievements
 
-- Winner — Best Project Expo 2024 (eco-friendly pharmaceutical packaging material).
-- Winner — Technical Quiz (Azooka) and Photography/Poster Presentation (“Nurturing the Nature”).
-- Runner-up — Intra-college Poetry Competition.
+- Winner - Best Project Expo 2024 (eco-friendly pharmaceutical packaging material).
+- Winner - Technical Quiz (Azooka) and Photography/Poster Presentation (“Nurturing the Nature”).
+- Runner-up - Intra-college Poetry Competition.
 - Activities: running, cycling, volleyball, photography and reading.
 
 ---
